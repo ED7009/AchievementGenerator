@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AchievementGenerator</string>
+    <string name="Title">成就產生器</string>
+    <string name="Login">登入</string>
+    <string name="Guest">訪客</string>
+    <string name="Leave">離開</string>
+</resources>
