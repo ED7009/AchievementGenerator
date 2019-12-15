@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="10dp">
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="60dp"
+
+            android:text="@string/Title" />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/Title"
+            android:layout_alignLeft="@+id/Title"
+            android:layout_alignRight="@+id/Title"
+            android:layout_marginTop="120dp"
+            android:textSize="50dp"
+            android:background="@color/NULL"
+            android:text="@string/Login" />
+
+        <Button
+            android:id="@+id/guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/login"
+            android:layout_alignLeft="@+id/Title"
+            android:layout_alignRight="@+id/Title"
+            android:layout_marginTop="120dp"
+            android:textSize="50dp"
+            android:background="@color/NULL"
+            android:text="@string/Guest" />
+
+        <Button
+            android:id="@+id/leave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/guest"
+            android:layout_alignLeft="@+id/Title"
+            android:layout_alignRight="@+id/Title"
+            android:layout_marginTop="120dp"
+            android:textSize="50dp"
+            android:background="@color/NULL"
+            android:text="@string/Leave" />
+
+
+    </RelativeLayout>
