@@ -8,7 +8,7 @@
 
 
         <TextView
-            android:id="@+id/Title1"
+            android:id="@+id/Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -56,7 +56,7 @@
             android:layout_marginTop="120dp"
             android:textSize="50dp"
             android:background="@color/NULL"
-            android:text="@string/Leave" />
+            android:text="@string/Guest" />
 
 
     </RelativeLayout>
